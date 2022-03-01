@@ -50,7 +50,9 @@ export SiamMask=$PWD
 ```
 conda create -n siammask python=3.6
 source activate siammask
-pip install -r requirements.txt
+##i am using anaconda prompt
+##conda activate siammask
+pip install -r requirements.txt ## ERROR: No matching distribution found for torch==0.4.1
 bash make.sh
 ```
 - Add the project to your PYTHONPATH
